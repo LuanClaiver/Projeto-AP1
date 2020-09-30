@@ -1,9 +1,5 @@
 # Algoritmos e Programação 1
 # Professor: Dr. Yuri Lacerda
-# Equipe: Luan Claiver
-#         Antonia Priscila
-#         Jose Alci
-#         Pedro Igor
 
 #Importar os modulos Necessarios
 import tkinter as tk
