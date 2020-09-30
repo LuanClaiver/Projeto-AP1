@@ -2,7 +2,6 @@ import sqlite3
 import sqlite3 as sql
 
 class Banco():
-
     def __init__(self):
         self.conexao = sqlite3.connect('banco.db')
         self.createTableCliente()
