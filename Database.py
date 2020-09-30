@@ -2,7 +2,6 @@ import sqlite3
 import sqlite3 as sql
 
 class Banco():
-
     def __init__(self):
         self.conexao = sqlite3.connect('banco.db')
         self.createTableCliente()
@@ -139,7 +138,7 @@ class Banco():
         except:
             return "Falha ao buscar"
         
-######## Parte de realizar compra #######
+######## Realiza compras #######
     def selectProdutoCompra(self, produto):
         # Lista vazia
         tabela = []
