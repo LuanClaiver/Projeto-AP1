@@ -138,7 +138,7 @@ class Banco():
         except:
             return "Falha ao buscar"
         
-######## Parte de realizar compra #######
+######## Realiza compras #######
     def selectProdutoCompra(self, produto):
         # Lista vazia
         tabela = []
